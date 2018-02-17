@@ -20,7 +20,7 @@ case"Agosto":
 alert("Abrigate que hace frio");
 break;
 default:
-alert("Ya pasamo9s el frio,ahora calor!!!");
+alert("Ya pasamos el frio,ahora calor!!!");
 break;
 }
 
