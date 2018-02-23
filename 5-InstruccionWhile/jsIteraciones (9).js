@@ -9,6 +9,7 @@ function Mostrar()
 	// declarar variables
 	do{
 		numero=parseInt(prompt("Ingrese un numero"));
+		contador++;
 	if(contador == 1)
 	{
 	min=numero;
@@ -25,7 +26,7 @@ function Mostrar()
 	
 	respuesta = prompt("¿Desea continuar? si/no");
 	
-	}while(respuesta == "si")
+	}while(respuesta == "si");
 
 	document.getElementById("maximo").value = max;
 	document.getElementById("minimo").value = min;
