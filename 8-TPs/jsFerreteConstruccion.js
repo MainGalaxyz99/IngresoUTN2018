@@ -22,9 +22,29 @@ alert("La cantidad de alambre necesario es " + alambre + "metros");
 }
 function Circulo () 
 {
-	
+    var radio;
+    var perimetro;
+    var alambre;
+
+    radio = parseFloat(document.getElementById("Radio").value);
+    perimetro = Math.PI * 2 * radio;
+    alambre = perimetro * 3;
+
+    alert("La cantidad de alambre necesaria es " + alambre + "metros");
 }
 function Materiales () 
 {
-	
+    var largo;
+    var ancho;
+    var superficie;
+    var cal;
+    var cemento;
+
+    largo = parseFloat(document.getElementById("Largo").value);
+    ancho = parseFloat(document.getElementById("Ancho").value);
+
+    superficie = largo * ancho;
+    cal = superficie * 2;
+
+    alert("Para un terreno de " + suprficie + "m2, se necesitan " + cal +" bolsas de cal" )
 }
