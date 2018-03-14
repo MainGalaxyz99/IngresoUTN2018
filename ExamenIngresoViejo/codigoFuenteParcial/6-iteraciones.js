@@ -23,10 +23,11 @@ function Mostrar()
         if(venta < menorVenta  || flag == 0)
         {
             menorVenta = venta;
+            menorDia = i;
             flag = 1;
         }
     }
-    alert("La mayor venta es " + mayorVenta + "y se realizo en el " + mayorDia + " y menor venta es" + menorVenta + " en el dia " + menorDia);
+    alert("La mayor venta es " + mayorVenta + "y se realizo en el dia " + mayorDia + " y la menor venta es" + menorVenta + " en el dia " + menorDia);
     
 }
 

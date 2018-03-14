@@ -6,7 +6,7 @@ function Mostrar()
     var importeFinal;
 
     importe = parseFloat(prompt("Ingrese importe"));
-    iva = importe * .21;
+    iva = (importe * 21) / 100;
     importeFinal = importe + iva;
 
     alert("El importe final es " + importeFinal);
